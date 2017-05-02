@@ -1,4 +1,4 @@
 <?php
 
-$myobject = new Ccontent();
+$myobject = new Ccontent(); //создаем новый обьект
 echo $myobject->name;
