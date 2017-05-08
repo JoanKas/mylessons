@@ -1,4 +1,3 @@
 <?php
-
+$connectDB = new Db();
 $myobject = new Ccontent();
-echo $myobject->name;
