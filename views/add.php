@@ -1,4 +1,3 @@
-Добавить страницу
 <form method="post">
     Название страницы в меню
     <input type="text" name="menu_name">
