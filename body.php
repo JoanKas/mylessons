@@ -1,5 +1,6 @@
 <a href="?page=add">Добавить страницу</a>
 <?php
+
 // создаем обьекты
 $connectDB = new Db();
 $myobject = new Ccontent();
