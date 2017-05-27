@@ -29,4 +29,12 @@ class Ccontent extends Mcontent
         return $sql;
     }
 
+    public function pagelist(){
+        $allpages = $this->getAllPages();
+        while ($result = mysqli_fetch_array($allpages)){
+            $data[] = $result;
+        }
+        var_dump($data);
+    }
+
 }

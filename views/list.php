@@ -1,2 +1,2 @@
-Список страниц
 <?php
+$myobject->pagelist();

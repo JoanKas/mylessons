@@ -7,4 +7,11 @@ class Mcontent extends Db
         }
 
     }
+
+    public function getAllPages(){
+        $sql="SELECT * FROM pages";
+        $result=$this->sql($sql);
+        return $result;
+
+    }
 }

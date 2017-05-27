@@ -1,4 +1,5 @@
 <a href="?page=add">Добавить страницу</a>
+<a href="?page=list">Список страниц</a>
 <?php
 
 // создаем обьекты
@@ -15,4 +16,10 @@ if($_POST){
 // если нажата ссылка
 if ($_GET["page"]=="add"){
     require_once ("views/add.php");
+}
+elseif($_GET["page"]=="list") {
+    require_once("views/list.php");
+}
+else{
+
 }
