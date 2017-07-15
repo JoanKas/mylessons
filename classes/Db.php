@@ -3,8 +3,8 @@
 /**
  * @filename DB.class.php
  * набор компонентов для работы с БД
- * @author Любомир Пона
- * @copyright 24.09.2013
+ * @author Иван Каширин
+ * @copyright 15.06.2017
  */
  
 class Db extends Config 
