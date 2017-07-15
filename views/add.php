@@ -1,5 +1,5 @@
 <form method="post">
-    Название страницы в меню
+    Название страницы в моем меню
     <input type="text" name="menu_name">
     Текст страницы
     <input type="text" name="content">
