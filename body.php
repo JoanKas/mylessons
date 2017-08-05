@@ -14,7 +14,10 @@ $myhouse3 = new House2(1,5);
 $myhouse4 = new House2(2,6);
 
 echo "<br>Количество построенных домов: ".House1::$count;
-echo "<br>Количество построенных домов: ".House2::$count;
+echo "<br>Количество построенных домов: ".House2::$count."<br>";
+
+$myrewiev = new Rewievs();
+
 // если от пользователя получены данные
 if($_POST){
     if ($_GET["page"]=="add"){
