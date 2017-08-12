@@ -2,7 +2,7 @@
 // автозагрузка классов
 function __autoload($name)
 {
-require_once('classes/' . $name . '.php');
+    require_once('classes/' . $name . '.php');
 }
 ?>
 

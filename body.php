@@ -17,7 +17,12 @@ echo "<br>Количество построенных домов: ".House1::$cou
 echo "<br>Количество построенных домов: ".House2::$count."<br>";
 
 $myrewiev = new Rewievs();
+$myrewiev2 = new Rewievs();
+$myrewiev3 = new Rewievs();
 
+$myrewiev4 = new libs\rewievs\Rewievs();
+
+$myrewiev->giveCountRewievs();
 // если от пользователя получены данные
 if($_POST){
     if ($_GET["page"]=="add"){
